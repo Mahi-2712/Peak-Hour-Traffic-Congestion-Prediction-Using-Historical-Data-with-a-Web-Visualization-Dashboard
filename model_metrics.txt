@@ -1,0 +1,22 @@
+=== Project Model Verification Report ===
+Generated Timestamp: 2026-10-06 11:10:13.074061
+Global Model Accuracy: 95.83%
+
+=== Precision and Recall Breakdown Matrix ===
+              precision    recall  f1-score   support
+
+        High       1.00      1.00      1.00        33
+         Low       0.95      0.99      0.97       105
+      Medium       0.50      0.17      0.25         6
+
+    accuracy                           0.96       144
+   macro avg       0.82      0.72      0.74       144
+weighted avg       0.95      0.96      0.95       144
+
+=== Relative Feature Importance Array ===
+Hour: 0.1462
+Is_Weekend: 0.0183
+Is_Holiday: 0.0006
+Junction_Activity_Weight: 0.0275
+Weather_Encoded: 0.0498
+Vehicle_Count: 0.7577
